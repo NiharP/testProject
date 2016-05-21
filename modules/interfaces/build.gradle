@@ -1,0 +1,9 @@
+
+dependencies {
+    compile project(':modules:models')
+    compile project(':modules:domain')
+
+    compile libraries.'mongo-java-driver'
+    testCompile libraries.'junit'
+}
+

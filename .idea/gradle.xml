@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/share/gradle" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/application" />
+            <option value="$PROJECT_DIR$/application/testWebApplication" />
+            <option value="$PROJECT_DIR$/itest" />
+            <option value="$PROJECT_DIR$/modules" />
+            <option value="$PROJECT_DIR$/modules/customer-dao" />
+            <option value="$PROJECT_DIR$/modules/customer-service" />
+            <option value="$PROJECT_DIR$/modules/domain" />
+            <option value="$PROJECT_DIR$/modules/employee-service" />
+            <option value="$PROJECT_DIR$/modules/interfaces" />
+            <option value="$PROJECT_DIR$/modules/models" />
+            <option value="$PROJECT_DIR$/modules/rest-service" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/application" />
+            <option value="$PROJECT_DIR$/application/testWebApplication" />
+            <option value="$PROJECT_DIR$/itest" />
+            <option value="$PROJECT_DIR$/modules" />
+            <option value="$PROJECT_DIR$/modules/customer-dao" />
+            <option value="$PROJECT_DIR$/modules/customer-service" />
+            <option value="$PROJECT_DIR$/modules/domain" />
+            <option value="$PROJECT_DIR$/modules/employee-service" />
+            <option value="$PROJECT_DIR$/modules/interfaces" />
+            <option value="$PROJECT_DIR$/modules/models" />
+            <option value="$PROJECT_DIR$/modules/rest-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+
+dependencies {
+    compile project(':modules:interfaces')
+    compile project(':modules:domain')
+    compile libraries.'spring-data'
+    testCompile libraries.'junit'
+}
+

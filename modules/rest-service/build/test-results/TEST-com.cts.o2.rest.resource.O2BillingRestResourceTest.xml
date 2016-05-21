@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.cts.o2.rest.resource.O2BillingRestResourceTest" tests="1" failures="0" errors="0" timestamp="2016-05-05T22:41:11" hostname="nihar-Lenovo-YOGA-3-Pro-1370" time="0.655">
+  <properties/>
+  <testcase name="testGetCustomerDetails" classname="com.cts.o2.rest.resource.O2BillingRestResourceTest" time="0.655"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[May 05, 2016 6:41:10 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.6 2014-02-18 21:52:53...
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 05, 2016 6:41:10 PM org.glassfish.jersey.internal.inject.Providers checkProviderRuntime
+WARNING: A provider org.springframework.web.context.ContextLoaderListener registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.springframework.web.context.ContextLoaderListener will be ignored. 
+May 05, 2016 6:41:11 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer start
+INFO: Starting GrizzlyTestContainer...
+May 05, 2016 6:41:11 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+May 05, 2016 6:41:11 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+May 05, 2016 6:41:11 PM org.glassfish.jersey.test.grizzly.GrizzlyTestContainerFactory$GrizzlyTestContainer stop
+INFO: Stopping GrizzlyTestContainer...
+May 05, 2016 6:41:11 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [localhost:9998]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestProject.iml" filepath="$PROJECT_DIR$/TestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/customer-dao/customer-dao.iml" filepath="$PROJECT_DIR$/modules/customer-dao/customer-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/modules/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/domain/domain.iml" filepath="$PROJECT_DIR$/modules/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/employee-service/employee-service.iml" filepath="$PROJECT_DIR$/modules/employee-service/employee-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/modules/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itest/itest.iml" filepath="$PROJECT_DIR$/itest/itest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/models/models.iml" filepath="$PROJECT_DIR$/modules/models/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/rest-service/rest-service.iml" filepath="$PROJECT_DIR$/modules/rest-service/rest-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/testWebApplication/testWebApplication.iml" filepath="$PROJECT_DIR$/application/testWebApplication/testWebApplication.iml" />
+    </modules>
+  </component>
+</project>

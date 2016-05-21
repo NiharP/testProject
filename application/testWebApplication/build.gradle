@@ -1,0 +1,24 @@
+apply plugin: 'war'
+
+tomcatHome = '/var/lib/tomcat7'
+war {
+    archivePath = '/build/libs/'
+}
+dependencies {
+    compile project(':modules:rest-service')
+    compile project(':modules:customer-dao')
+    compile libraries.'jersey-core'
+    compile libraries.'sl4j-log4j'
+    //for jersy2 spring integration
+    compile libraries.'jersey-spring3'
+    //for json media
+    compile libraries.'jersey-media'
+    compile libraries.'spring-web'
+    compile libraries.'log4j'
+}
+
+task deploy(type: Copy) {
+    from war.archivePath
+    into "${tomcatHome}/webapps"
+
+}

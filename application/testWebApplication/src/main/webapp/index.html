@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app='O2App'>
+<head>
+    <title>O2 Telecom</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.js"></script>
+    <script type="text/javascript" src="js/controllers/O2App.js"></script>
+    <script type="text/javascript" src="js/controllers/customerController.js"></script>
+    <script type="text/javascript" src="js/controllers/billingController.js"></script>
+    <script type="text/javascript" src="js/controllers/addCustomerController.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+<div id="main">
+    <!-- The navigation menu will get the value of the "active" variable as a class.
+         The $event.preventDefault() stops the page from jumping when a link is clicked. -->
+
+    <nav class="{{active}}" ng-click="$event.preventDefault()">
+
+        <!-- When a link in the menu is clicked, we set the active variable -->
+        <a href="#/addCustomer" class="addCustomer" ng-click="active='addCustomer'">Add Customer</a>
+        <a href="#/customerDetails" class="customerDetails" ng-click="active='customerDetails'">Customer Details</a>
+        <a href="#/billingDetails" class="billDetails" ng-click="active='billDetails'">Bill Details</a>
+    </nav>
+
+    <p ng-hide="active">Please click a menu item</p>
+</div>
+<div ng-view>
+    <!-- Views are added here at runtime. -->
+</div>
+</body>
+</html>
